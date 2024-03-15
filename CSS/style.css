@@ -1,0 +1,29 @@
+.seccion1 {
+    display: inline-block;
+    background-color: rgb(75, 108, 154);
+    color: white;
+    height: 100px;
+    padding-top: 50px;
+}
+.header {
+    background-color: black;
+    
+}
+nav{
+    display: none;
+   
+}
+.logo{
+    width: 50px;
+    height: 15px;
+    margin: 5px;
+}
+main{
+    text-align: center;
+}
+.foto{
+    display: inline-block;
+}
+footer{
+    background-color: black;
+}
