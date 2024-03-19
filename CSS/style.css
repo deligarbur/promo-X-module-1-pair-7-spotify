@@ -1,25 +1,39 @@
-.seccion1 {
-    display: inline-block;
-    background-color: rgb(75, 108, 154);
-    color: white;
-    height: 100px;
-    padding-top: 50px;
-}
 .header {
     background-color: black;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> 363092ef2c5ebfb3c1110c3b4bd88b74f5ba16b6
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
 }
+<<<<<<< HEAD
 
 .menu{
     list-style: none;
     display: flex;
     gap: 10px;
+=======
+nav{
+    /* display: none; */
+    color: white;
+   
+>>>>>>> 363092ef2c5ebfb3c1110c3b4bd88b74f5ba16b6
 }
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+}
+.h2-title {
+    font-size: 20px;
+}
+
 .logo{
     width: 50px;
     padding-top: 10px;
@@ -28,9 +42,29 @@
 main{
     text-align: center;
 }
+
+.seccion1 {
+    background-color: rgb(75, 108, 154);
+    background-image: url(../images/premium_dancer.png);
+    background-position: left;
+    color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.planes {
+    background-color: green;
+    display: inline;
+    width: 25%;
+}
+
 .foto{
     display: inline-block;
 }
+
 footer{
     background-color: black;
 }
