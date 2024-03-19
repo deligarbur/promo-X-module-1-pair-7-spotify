@@ -10,18 +10,15 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-<<<<<<< HEAD
 
 .menu{
     list-style: none;
     display: flex;
     gap: 10px;
-=======
 nav{
     /* display: none; */
     color: white;
    
->>>>>>> 363092ef2c5ebfb3c1110c3b4bd88b74f5ba16b6
 }
 
 .menu {
