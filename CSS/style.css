@@ -22,9 +22,8 @@ body{
     gap: 10px;
 }
 nav{
-    /* display: none; */
+    display: none;
     color: var(--color);
-   
 }
 
 .menu {
@@ -60,12 +59,10 @@ main{
 }
 .seccion2 {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     flex-direction: row;
-    
+    justify-content: center;
 }
-
 
 .planes {
     background-color: green;
@@ -73,10 +70,31 @@ main{
     width: 25%;
 }
 
+.imagen {
+    width: 100px;
+}
+
 .foto{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.foto-text {
+    line-height: 2;
+    text-align: left;
+    
 }
 
 footer{
     background-color: black;
+}
+
+@media all and (min-width: 480px) {
+    .nav {
+        display: block;
+    }
 }
