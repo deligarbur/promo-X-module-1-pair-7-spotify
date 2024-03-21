@@ -1,5 +1,6 @@
 :root {
     --color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
@@ -12,9 +13,7 @@
     padding-right: 10px;
     
 }
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 
 .menu{
     list-style: none;
@@ -26,14 +25,19 @@ nav{
     color: var(--color);
 }
 
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    
-}
+
 .h2-title {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.terminos{
+    text-align: start;
+    font-size: 10px;
+    padding-top: 10px;
+    
 }
 
 .logo{
@@ -47,21 +51,37 @@ main{
 }
 
 .seccion1 {
-    background-color: rgb(75, 108, 154);
-    background-image: url(../images/premium_dancer.png);
+    background-color: #529CF1;
     background-position: left;
     color: var(--color);
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 40vh;
     justify-content: flex-end;
     align-items: center;
+    
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.premium{
+    font-weight: 700;
+    text-align: start;
+    
 }
 
 .planes {
-    background-color: green;
+    background-color: #26b758;
     display: inline;
-    width: 25%;
+    width: 70%;
+    border-radius: 20%;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 .seccion2 {
@@ -69,6 +89,12 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    gap: 20px;
+}
+.titulo-main{
+    padding-bottom: 20px;
 }
 
 .imagen {
@@ -78,20 +104,34 @@ main{
 .foto {
     display: flex;
     flex-direction: row;
-    gap: 20px;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .foto-text {
-    line-height: 2;
+    line-height: 1.5;
     text-align: left;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+   
+   
+   
+    
     
 }
 
 footer{
     background-color: black;
+    color: white;
+    
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+
 }
 
 @media all and (min-width: 480px) {
@@ -99,3 +139,9 @@ footer{
         display: block;
     }
 }
+@media all and (min-width:768px) {
+    .section1{
+        background-image: url(../images/premium_dancer.png)
+    }
+    }
+    
