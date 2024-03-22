@@ -115,23 +115,52 @@ main{
     font-size: 12px;
     display: flex;
     flex-direction: column;
-   
-   
-   
-    
-    
 }
 
 footer{
     background-color: black;
     color: white;
-    
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.footer a {
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.info a {
     text-decoration: none;
     color: white;
     font-size: 10px;
+}
 
+.cookies {
+    display: inline;
+}
+
+.flag {
+    width: 20px;
+}
+
+.copy {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.spain {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 5px;
 }
 
 @media all and (min-width: 480px) {
