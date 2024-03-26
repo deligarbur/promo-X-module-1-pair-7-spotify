@@ -10,6 +10,9 @@
 @import 'core/reset';
 @import 'core/variables';
 @import 'layout/header';
+@import 'layout/seccion1';
+@import 'layout/seccion2';
+
 
 :root {
     --color: white;
@@ -21,98 +24,9 @@ main{
     text-align: center;
     
 }
-.seccion1 {
-    background-color: #529CF1;
-    background-position: left;
-    color: var(--color);
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    justify-content: flex-end;
-    align-items: center;
-    
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-    &__premium {
-        font-weight: 700;
-        text-align: start;
-        
-    }
-    &__escucha {
-        font-size: 15px;
-        font-weight: 600;
-        text-align: start;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    &__planes {
-        background-color: #26b758;
-        display: inline;
-        width: 70%;
-        border-radius: 20%;
-        color: white;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-
-}
-    &__terminos {
-        text-align: start;
-        font-size: 10px;
-        padding-top: 10px;
-        
-    }
-    
-}
 
 
 
-
-
-
-
-
-
-
-
-
-.seccion2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    gap: 20px;
-}
-.titulo-main{
-    padding-bottom: 20px;
-}
-
-.imagen {
-    width: 100px;
-}
-
-.foto {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.foto-text {
-    line-height: 1.5;
-    text-align: left;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-}
 
 footer{
     background-color: black;

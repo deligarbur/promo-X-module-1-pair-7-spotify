@@ -1,0 +1,35 @@
+.seccion2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    gap: 20px;
+
+    &__titulo {
+        padding-bottom: 20px;
+    }
+
+    &__foto {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &--imagen {
+            width: 100px;
+        }
+    }
+
+    &__foto--text {
+        line-height: 1.5;
+        text-align: left;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

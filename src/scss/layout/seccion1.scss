@@ -1,0 +1,48 @@
+.seccion1 {
+    background-color: #529CF1;
+    background-position: left;
+    color: var(--color);
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: flex-end;
+    align-items: center;
+    
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    &__premium {
+        font-weight: 700;
+        text-align: start;
+        
+    }
+    &__escucha {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    &__planes {
+        background-color: #26b758;
+        display: inline;
+        width: 70%;
+        border-radius: 20%;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+}
+    &__terminos {
+        text-align: start;
+        font-size: 10px;
+        padding-top: 10px;
+        
+    }
+    
+}
