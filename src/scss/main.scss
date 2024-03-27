@@ -12,6 +12,7 @@
 @import 'layout/header';
 @import 'layout/seccion1';
 @import 'layout/seccion2';
+@import 'layout/footer';
 
 
 :root {
@@ -28,58 +29,17 @@ main{
 
 
 
-footer{
-    background-color: black;
-    color: white;
-    font-size: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-
-.info a {
-    text-decoration: none;
-    color: white;
-    font-size: 10px;
-}
-
-.cookies {
-    display: inline;
-}
-
-.flag {
-    width: 20px;
-}
-
-.copy {
-    padding-top: 15px;
-    padding-bottom: 30px;
-}
-
-.spain {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    gap: 5px;
-}
 
 @media all and (min-width: 480px) {
+    .section1{
+        background-image: url(../images/premium_dancer.png);
+    }
     .nav {
         display: block;
     }
 }
-@media all and (min-width:768px) {
+@media all and (min-width:1000px) {
     .section1{
         background-image: url(../images/premium_dancer.png)
     }
